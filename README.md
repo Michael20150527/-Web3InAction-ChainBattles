@@ -1,13 +1,17 @@
-# Sample Hardhat Project
+<h1 align="center">
+Chain battles
+</h1>
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
-Try running some of the following tasks:
+## Main commands
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
 ```
+npm install --save-dev @openzeppelin/contracts @nomiclabs/hardhat-etherscan dotenv 
+
+npx hardhat verify --network mumbai <your_contract_address>
+```
+## Description
+To create a dynamic nft
+
+## Final effect diagram
+![web3 in action screenshot](https://github.com/Michael20150527/-Web3InAction-ChainBattles/blob/master/ChainBattles.png "Chain battles")
